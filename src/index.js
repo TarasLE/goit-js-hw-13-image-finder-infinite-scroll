@@ -7,9 +7,9 @@ import '../node_modules/basiclightbox/dist/basicLightbox.min.css'
 import '@pnotify/core/dist/BrightTheme.css';
 import '@pnotify/core/dist/PNotify.css';
 import { error } from './js/components/variables'
-import '../node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min.js'
+// import '../node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min'
 
-var infScroll = new InfiniteScroll( ref.InfiniteScroll, {
+var infScroll = new InfiniteScroll( ref.galleryScroll, {
   path: '.pagination__next',
   append: '.post',
   history: false,

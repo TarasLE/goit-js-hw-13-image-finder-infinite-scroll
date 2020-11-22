@@ -9,7 +9,7 @@ import '@pnotify/core/dist/PNotify.css';
 import { error } from './js/components/variables'
 // import '../node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min'
 
-var infScroll = new InfiniteScroll( ref.galleryScroll, {
+var infScroll = new InfiniteScroll( refs.galleryScroll, {
   path: '.pagination__next',
   append: '.post',
   history: false,

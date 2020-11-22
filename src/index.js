@@ -9,12 +9,12 @@ import '@pnotify/core/dist/PNotify.css';
 import { error } from './js/components/variables'
 // import '../node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min'
 
-const apiServices = new ApiServices();
-var infScroll = new InfiniteScroll( '.gallery-inf-scroll', {
-  path: apiServices.ApiServiceUrl,
-  append: '.post',
-  history: false,
-});
+// const apiServices = new ApiServices();
+// var infScroll = new InfiniteScroll( '.gallery-inf-scroll', {
+//   path: apiServices.ApiServiceUrl,
+//   append: '.post',
+//   history: false,
+// });
 
 
 

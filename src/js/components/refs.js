@@ -1,5 +1,6 @@
 export const refs = {
     searchForm: document.querySelector('.search-form'),
     imageContainer: document.querySelector('.gallery'),
-    loadMoreBtn: document.querySelector('[data-action="load-more"]')
+    loadMoreBtn: document.querySelector('[data-action="load-more"]'),
+    galleryScroll: document.querySelector('.gallery-inf-scroll')
 }

@@ -7,7 +7,13 @@ import '../node_modules/basiclightbox/dist/basicLightbox.min.css'
 import '@pnotify/core/dist/BrightTheme.css';
 import '@pnotify/core/dist/PNotify.css';
 import { error } from './js/components/variables'
+import '../node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min.js'
 
+var infScroll = new InfiniteScroll( ref.InfiniteScroll, {
+  path: '.pagination__next',
+  append: '.post',
+  history: false,
+});
 
 const apiServices = new ApiServices();
 
